@@ -3,48 +3,65 @@
   <head>
     <meta charset="UTF-8">
     <title>Exceptional Realty Group - Luxury Homes - About</title>
+    <link rel="stylesheet" href="./style.css">
     <!-- Don't forget to link your CSS file! -->
   </head>
   <body>
     <header>
       <!-- logo -->
       <h1>Exceptional Realty Group</h1>
-
-      <nav>
-        <a href="index.html">About</a> <a href="new-properties.html">New Properties</a> <a href="real-estate-listings.html">Listings</a> <a href="market-report.html">Market Report</a> <a href="contact.html">Contact</a> <a href="http://hud.gov" target="_blank">H.U.D.</a>
+<div id="bar">
+       <nav>
+        <a href="index.html" style="background-color: lightgray;">About</a> <a href="new-properties.html" style="background-color: lightgray;">New Properties</a> <a href="real-estate-listings.html" style="background-color: lightgray;">Listings</a> <a href="market-report.html" style="background-color: lightgray;">Market Report</a> <a href="contact.html" style="background-color: lightgray;">Contact</a> <a href="http://hud.gov" target="_blank" style="background-color: lightgray;">H.U.D.</a>
       </nav>
+
+</div>
+     
     </header>
 
     <section id="featured-property">
       <figure>
-        <img src="images/intro-pic.jpg" alt="A beautiful living room." title="Welcome to Exceptional Realty Group">
-        <figcaption>345 Carl Street Apt 12, Carrol Rd. Brooklyn, NY - Photo by Denise Richards.</figcaption>
+        <div class="image">
+        <img src="images/intro-pic.jpg" alt="A beautiful living room." title="Welcome to Exceptional Realty Group" class="center">
+        </div>
+        
+        <figcaption style="text-align: center;">345 Carl Street Apt 12, Carrol Rd. Brooklyn, NY - Photo by Denise Richards.</figcaption>
       </figure>
-
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, perferendis nisi nihil debitis aspernatur doloribus quam eveniet quibusdam tempora esse! Repudiandae, assumenda, debitis doloribus ea eius ab at quae totam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, inventore aliquid ipsam debitis nulla vitae omnis nemo quisquam? Obcaecati dolor ipsum distinctio reprehenderit aliquid autem ea vel provident voluptas nisi.</p>
+<div id="paragraph">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, perferendis nisi nihil debitis aspernatur doloribus quam eveniet quibusdam tempora esse! Repudiandae, assumenda, debitis doloribus ea eius ab at quae totam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, inventore aliquid ipsam debitis nulla vitae omnis nemo quisquam? Obcaecati dolor ipsum distinctio reprehenderit aliquid autem ea vel provident voluptas nisi.</p>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, natus, nobis, tempore recusandae culpa deleniti dignissimos laborum perspiciatis exercitationem obcaecati dolores unde eveniet eius debitis perferendis provident porro. Ipsum, placeat.</p>
+</div>
+     
     </section>
 
-    <section id="details">
-      <div>
-        <h3>Contact</h3>
+    <section id="details" class="details">
+      <span class="contact">
+          <h3>Contact</h3>
         <p>
           <a href="mailto:info@exceptionalrealty.com">info@exceptionalrealty.com</a><br>
           +1 710 555 1234<br>
           @fakeRealty
         </p>
+
+      </span>
+      <!-- <div class="contact">
+        
       </div>
-      
-      <div>
-        <h3>Correspondence</h3>
+       -->
+      <span class="Correspondence" >
+            <h3>Correspondence</h3>
         <p>
           Exceptional Realty<br>
           P.O. Box 5555<br>
           Brooklyn, NY 11201
-        </p>
-      </div>
+</p>
+      </span>
+      <!-- <div class="Correspondence">
+        
+        
+      </div> -->
 
-      <div>
+      <div class="Links">
         <h3>Links</h3>
         <p>
           <a href="#" target="_blank">Home Restoration</a><br>
@@ -53,7 +70,7 @@
         </p>
       </div>
 
-      <div>
+      <div class="Follow">
         <h3>Follow</h3>
         <p>
           <a href="#" target="_blank">YouTube</a><br>
