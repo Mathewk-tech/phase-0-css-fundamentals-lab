@@ -19,6 +19,10 @@ h1{
   padding: 10px;
   
 }
+#featured-property p{
+  width: 800px;
+  justify-content: center;
+}
 #paragraph{
  
   width: 800px;
@@ -27,46 +31,14 @@ h1{
   margin-top: 10px;
   margin-bottom: 10px;
 }
-.contact{
- padding: 20px;
-  float: left; 
-  width: 25%; 
+#details{
+  align-items: flex-end;
   
+}
+#details div{
+  float: left;
+  width: 25%;
+  background-color: red;
   text-align: center;
-  box-sizing: border-box;
-
 }
-.Correspondence{
-padding: 20px;
-  float: left; 
-  width: 25%; 
- 
-  text-align: center;
-  box-sizing: border-box;
 
-}
-.Links{
-
-padding: 20px;
-  float: left; 
-  width: 25%; 
-  
-  text-align: center;
-  box-sizing: border-box;
-}
-.Follow{
-
-padding: 20px;
-  float: left; 
-  width: 25%; 
-  
-  text-align: center;
-  box-sizing: border-box;
-}
-.details{
-  display: flex;
-
-justify-content: space-around;
-background-color: red;
-align-items: flex-end;
-}
